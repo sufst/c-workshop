@@ -50,7 +50,7 @@ uint8_t gpio_read(gpio_pin_t* pin){
   if(!pin->initialised) return ERR;
   if(pin->direction == GPIO_OUTPUT) return ERR;
 
-  return pin->value;
+  return random_num();
 }
 
 status_t gpio_set_dir(gpio_pin_t* pin, GPIO_DIR dir){
