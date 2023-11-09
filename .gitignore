@@ -4,5 +4,8 @@
 !README.md
 !CMakeLists.txt
 
+!inc/
+!inc/*
+
 !src/
-!src/workshop.c
+!src/*

@@ -8,6 +8,12 @@ project(${FW_NAME}
 
 add_executable(${FW_NAME})
 
-target_sources(${FW_NAME}
-  PRIVATE src/workshop.c)
+include_directories(
+  ${PROJECT_SOURCE_DIR}/inc
+)
+
+target_sources(${FW_NAME} PRIVATE
+  src/gpio.c
+  # List the .c files here, e.g. src/workshop.c
+)
 
