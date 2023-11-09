@@ -18,7 +18,7 @@ These are to try and get you used to writing C for embedded devices.
 5. Make a function that takes a pointer to a `struct` and prints each field to the command line
 6. Using the GPIO library (`gpio.h`), create a GPIO pin then continuously take a user value and write it to the pin.
 7. Create another GPIO pin and run your function which prints a `struct` to print the GPIO pin `struct` whenever the value of the pin is above 128.
-8. If you get this far, look at multithreading (`pthreads`) and synchronisation. Run two functions at once, one which adds `struct`s to an array (a queue), then one which reads from the counter and prints the `struct` to the terminal. (Hint: this is a producer-consumer synchronisation problem.)
+8. If you get this far, look at multithreading (`pthreads`) and synchronisation in C. Run two functions at once, one which adds `struct`s to an array (a queue), then one which reads from the counter and prints the `struct` to the terminal. (Hint: this is a producer-consumer synchronisation problem.)
 
 
 ## Compiling
@@ -29,4 +29,16 @@ This project uses CMake to generate the build file. This is a common way to make
 2. Run `cmake ..`
 3. Run `make -s`
 
-You will need a C compiler installed (probably either `gcc` or `clang`). This should be easy on Linux or Mac. On Windows, please use WSL otherwise it will be a pain.
+Once you've run `make` (or any other build tool), you should have an executable in the build folder that you can run.
+
+You will need a C compiler installed (probably either `gcc` or `clang`; I'd recommend `gcc`). This should be easy on Linux or Mac. On Windows, please use WSL otherwise it will be a pain.
+
+The commands will probably be something like this.
+
+```sh
+$ mkdir build
+$ cd build
+$ cmake ..
+$ make -s
+$ ./workshop
+```
