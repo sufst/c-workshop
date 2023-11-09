@@ -1,8 +1,0 @@
-[
-{
-  "directory": "/home/toby/projects/sufst/stag10/c-workshop/build",
-  "command": "/usr/lib64/ccache/clang -g -o CMakeFiles/workshop.dir/src/workshop.c.o -c /home/toby/projects/sufst/stag10/c-workshop/src/workshop.c",
-  "file": "/home/toby/projects/sufst/stag10/c-workshop/src/workshop.c",
-  "output": "CMakeFiles/workshop.dir/src/workshop.c.o"
-}
-]
