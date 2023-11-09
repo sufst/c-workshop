@@ -1,0 +1,3 @@
+/home/toby/projects/sufst/stag10/c-workshop/build/CMakeFiles/workshop.dir
+/home/toby/projects/sufst/stag10/c-workshop/build/CMakeFiles/edit_cache.dir
+/home/toby/projects/sufst/stag10/c-workshop/build/CMakeFiles/rebuild_cache.dir
